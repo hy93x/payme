@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.nav-bar{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70%;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 0px;
+    margin-top: 20px;
+}
+
+.nav-list ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-list ul li{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.nav-button button{
+    height: 7vh;
+    width: 170px;
+    border: none;
+    border-radius: 19px;
+    background-color: chartreuse;
+    font-weight: 900;
+}
+
+/* under nav */
+
+.parent-body{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px 0px;
+}
+
+.parent-text h1{
+    line-height: 40px;
+}
+
+.parent-text p{
+    padding: 20px 0px;
+}
+
+.first{
+    height: 7vh;
+    width: 170px;
+    border: none;
+    border-radius: 19px;
+    background-color: chartreuse;
+    font-weight: 900;
+    margin: 0px 10px;
+}
+
+.second{
+    height: 7vh;
+    width: 170px;
+    border: 2px solid;
+    border-color: chartreuse;
+    border-radius: 19px;
+    background-color: rgb(192, 241, 142);
+    font-weight: 900;
+}
+
+/* the big pics */
+
+.big-pics{
+    display: flex;
+    justify-content: center;
+}
+
+.big-pics img{
+    width: 50%;
+    margin: 10px 0px;
+}
+
+/* midde line */
+
+.middle-line ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.middle-line ul li{
+    padding: 20px 50px;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 80px;
+}
+
+
+.card-section{
+    background-color: rgb(179, 255, 102);
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+    padding: 70px 20px; 
+    margin-bottom: 50px;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+.card{
+    padding: 20px 10px;
+    height: 45vh;
+    width: 350px;
+    border: non1px solid;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.card p{
+    padding: 25px 0px;
+}
+.card button{
+    height: 7vh;
+    padding: 10px 0px;
+    width: 170px;
+    border: none;
+    border-radius: 19px;
+    background-color: chartreuse;
+    font-weight: 900;
+}
